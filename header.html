@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <style>
+      h1 {
+        color: white;
+        font-family: "Trebuchet MS", Arial, sans-serif;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 4px black;
+      }
+      body {
+        background-color: indigo;
+        border-bottom: 5px solid gold;
+        animation: bg-anim 5s infinite alternate;
+      }
+
+      /* Animasi */
+      @keyframes bg-anim {
+        0% {
+          background-color: indigo;
+        }
+        50% {
+          background-color: purple;
+        }
+        100% {
+          background-color: indigo;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <marquee behavior="" direction="">Selamat Datang di Fikrie Blog</marquee>
+    </h1>
+  </body>
+</html>
